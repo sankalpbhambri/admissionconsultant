@@ -67,6 +67,8 @@ public class ExpandableListDataPump {
         List<String> q17 = new ArrayList<String>();
         q17.add("We will help you in university selection, application process, tracking, Visa guidance, onshore assistance. All the best.");
 
+        List<String> q18 = new ArrayList<String>();
+        q18.add("We will help you in university selection, application process, tracking, Visa guidance, onshore assistance. All the best.");
 
 
         expandableListDetail.put("What is eligibility criteria to pursue masters in United states Universities?", q1);
@@ -87,6 +89,7 @@ public class ExpandableListDataPump {
         expandableListDetail.put("What about interview. Is it tough to clear it?", q16);
         expandableListDetail.put("How can you help us?", q17);
 
+        expandableListDetail.put("How can you help us?", q18);
 
         return expandableListDetail;
     }
