@@ -8,7 +8,7 @@ public class Note {
     private long noteId, dateCreatedMilli;
     private Category category;
 
-    public enum Category {MIT,HARVARD,STANFORD,CALTECH,CHICAGO,PRINCETON,YALE,HOPKINS,CORNELL,PENNSYLVANIA,COMPUTER,MBA,HEALTH,LAW,ENINEERING}
+    public enum Category {MIT,HARVARD,STANFORD,CALTECH,CHICAGO,PRINCETON,YALE,HOPKINS,CORNELL,PENNSYLVANIA,COMPUTER,MBA,HEALTH,LAW,ENINEERING,SCHOLARSHIPS}
 
     public Note(String title, String message, Category category) {
         this.title = title;
@@ -116,6 +116,8 @@ public class Note {
                 return R.drawable.cornell_university;
             case PENNSYLVANIA:
                 return R.drawable.pennsylvania_university;
+            case SCHOLARSHIPS:
+                return R.drawable.scholarship;
 
         }
         return R.drawable.p;

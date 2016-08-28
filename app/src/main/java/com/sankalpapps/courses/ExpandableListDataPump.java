@@ -68,7 +68,7 @@ public class ExpandableListDataPump {
         q17.add("We will help you in university selection, application process, tracking, Visa guidance, onshore assistance. All the best.");
 
         List<String> q18 = new ArrayList<String>();
-        q18.add("We will help you in university selection, application process, tracking, Visa guidance, onshore assistance. All the best.");
+        q18.add("We will help you in university selection, scholarships/grants, application process, tracking, Visa guidance, onshore assistance.\n All the best.");
 
 
         expandableListDetail.put("What is eligibility criteria to pursue masters in United states Universities?", q1);
